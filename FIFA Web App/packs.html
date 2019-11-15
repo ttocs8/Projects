@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Assistant">
+		<link rel="icon" href="images/favicon2.gif" type="image/gif" sizes="16x16">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<script src="scripts/myjq.js"></script>
+		<title>FIFA Packs</title>
+	<head>
+	
+	<body id="main">
+	<script>
+		function openNav() {
+			document.getElementById("shopMenu").style.width = "350px";
+		}
+
+		/* Set the width of the side navigation to 0 */
+		function closeNav() {
+			document.getElementById("shopMenu").style.width = "0";
+		}
+	</script>
+<div id="shopMenu" class="sidenav">
+  <text onclick="closeNav()" style="color:white;float:right;font-size:36px;">&times;</text>
+<br/><br/>
+  <ul>
+	<li>10,000 Coins = 5 Player Points</li><br/>
+	<li>100,000 Coins = 80 Player Points</li><br/>
+	<li>10 Player Points = 5 Gold Players</li><br/>
+	<li>50 Player Points = 20 Gold Players</li><br/>
+	<li>100 Player Points = 5 In-Form Players</li>
+  </ul>
+</div>
+		<img src="images/coins.png" width="30" height="21" class="coinLogo">
+		<img src="images/playerpoints.png" width="20" height="23" class="pointsLogo">
+		<div id="mainBar_Top">
+			<div id="coins">Coins:</div>
+			<div id="fifa_points">Player Points:</div>
+			<div id="shopIcon" onclick="openNav()">SHOP</div>
+		</div>
+
+
+
+
+	<div id="paySixPlayerPack">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How would you like to pay? <text id="X_SixPlayer" class="material-icons" style="float:right;color:red">clear</text><br/>
+		
+		<button class="payWithCoinButton"><u>7,500</u> Coins</button> <br/>
+		<button class="payWithPointsButton"><u>14</u> Player Points</button> 
+
+	</div>
+
+	<div id="payTenPlayerPack">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How would you like to pay? <text id="X_TenPlayer" class="material-icons" style="float:right;color:red">clear</text><br/>
+		
+		<button class="payWithCoinButton"><u>15,000</u> Coins</button> <br/>
+		<button class="payWithPointsButton"><u>26</u> Player Points</button> 
+
+	</div>
+
+	<div id="payTwentyPlayerPack">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How would you like to pay? <text id="X_TwentyPlayer" class="material-icons" style="float:right;color:red">clear</text><br/>
+		
+		<button class="payWithCoinButton"><u>50,000</u> Coins</button> <br/>
+		<button class="payWithPointsButton"><u>45</u> Player Points</button> 
+
+	</div>
+	
+		<div id="exitSixPlayerPack">
+			<img src="images/quicksell.png" id="QuickSellSix" height="20" width="100"/>
+		</div>
+        
+        <div id="exitTenPlayerPack">
+			<img src="images/quicksell.png" id="QuickSellTen" height="20" width="100"/>
+		</div>
+        
+        <div id="exitTwentyPlayerPack">
+			<img src="images/quicksell.png" id="QuickSellTwenty" height="20" width="100"/>
+		</div>
+	
+		<div id="PLAYERS" class="tac">
+			<p class="PlayerOne_Default floatLeft"></p>
+			<p class="PlayerTwo floatLeft"></p>
+			<p class="PlayerThree floatLeft"></p>
+			<p class="PlayerFour floatLeft"></p>
+			<p class="PlayerFive floatLeft"></p>
+			<p class="PlayerSix floatLeft"></p>
+			<p class="PlayerSeven floatLeft"></p>
+			<p class="PlayerEight floatLeft"></p>
+			<p class="PlayerNine floatRight"></p>
+			<p class="PlayerTen floatRight"></p>
+		</div>
+	
+		<div id="SixPlayerPack"></div>
+
+
+		<div id="TenPlayerPack"></div>
+
+
+		<div id="TwentyPlayerPack"></div>
+	
+	</body>
+</html>

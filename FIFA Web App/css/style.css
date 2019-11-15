@@ -1,0 +1,225 @@
+body	{background-image: url("../images/background.gif");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center; 
+		background-size: cover;	
+	
+}
+.tar 	{text-align:right;}
+.tal 	{text-align:left;}
+.tac 	{text-align:center;}
+#mainBar_Top		{background: black;
+					background: linear-gradient(to bottom right, gray, black); 
+					height:25px;
+					width: 100%;
+					color: white;
+					font-size: 15px;
+					font-family: 'Assistant';
+					border: 1px solid yellow;}
+#coins 		{position:absolute;top:12px;left:70px;}
+.coinLogo 		{position:absolute;top:10px;left:36px;}
+#fifa_points 		{position:absolute;top:12px;left:250px; color:white;}
+.pointsLogo 		{position:absolute;top:10px;left:226px; color:white;}
+#shopIcon 		{position:absolute;top:11px;left:1201px;}
+#shop {background-color: black;
+		 height:105px;
+		 width: 50%;
+		 margin-left: auto;
+		 margin-right: auto;
+		 color: white;
+		 font-size: 15px;
+		 font-family: "Trebuchet MS", Helvetica, sans-serif;
+		 border: 1px solid yellow;}
+
+#SixPlayerPack 	{background-image: url("../images/6playerpack.png");
+				background-repeat: no-repeat;
+				width: 192px;
+				height: 278px;
+				position:absolute;top:175px;left:150px;
+				cursor: pointer;}
+
+#TenPlayerPack 	{background-image: url("../images/10playerpack.png");
+				background-repeat: no-repeat;
+				width: 192px;
+				height: 278px;
+				position:absolute;top:175px;left:540px;
+				cursor: pointer;}
+
+#TwentyPlayerPack 	{background-image: url("../images/20playerpack.png");
+					background-repeat: no-repeat;
+					width: 192px;
+					height: 278px;
+					position:absolute;top:175px;left:900px;
+					cursor: pointer;}
+
+#paySixPlayerPack	{margin-top:20px;
+					 background: #ffdd00;
+					 background: linear-gradient(to bottom right, white, #ffdd00); 
+					 width: 100%;
+					 color: black;
+					 font-size:20px;
+					 text-align: center;
+					 border: 1px solid black;
+					 font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+#payTenPlayerPack	{margin-top:20px;
+					 background-color: #ffdd00;
+					 background: linear-gradient(to bottom right, white, #ffdd00); 
+					 width: 100%;
+					 color: black;
+					 font-size:20px;
+					 text-align: center;
+					 border: 1px solid black;
+					 font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+#payTwentyPlayerPack	{margin-top:20px;
+						 background-color: #ffdd00;
+						 background: linear-gradient(to bottom right, white, #ffdd00); 
+						 width: 100%;
+						 color: black;
+						 font-size:20px;
+						 border: 1px solid black;
+						 text-align: center;
+						 font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+
+#exitSixPlayerPack {position:absolute;top:100px;left:25%;
+					width:50%;
+				    height: 150px;
+					background: gray;
+					background: linear-gradient(to bottom right, gray, black); }
+
+#exitTenPlayerPack {position:absolute;top:100px;left:25%;
+					width:50%;
+				    height: 150px;
+					background: gray;
+					background: linear-gradient(to bottom right, gray, black); }
+
+#exitTwentyPlayerPack {position:absolute;top:100px;left:25%;
+					width:50%;
+				    height: 150px;
+					background: gray;
+					background: linear-gradient(to bottom right, gray, black); }
+
+
+.payWithCoinButton {background-color: white; 
+					border: none;
+					color: black;
+					padding: 16px 32px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					margin: 4px 546px;
+					border-radius: 8px;
+					border: 2px solid #4CAF50;
+					-webkit-transition-duration: 0.4s; 
+					transition-duration: 0.4s;
+					cursor: pointer;}
+
+.payWithCoinButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.payWithPointsButton {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+border-radius: 8px;
+border: 2px solid #f44336;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.payWithPointsButton:hover {
+    background-color: #f44336; /* Green */
+    color: white;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+	color:white;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+#packAnim {  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;}
+
+@keyframes example {
+    0%   {-webkit-transform: rotateY(0deg); /* Safari */
+		transform: rotateY(0deg);}
+    100% {-webkit-transform: rotateY(360deg); /* Safari */
+    transform: rotateY(360deg);}
+}
+
+#PLAYERS {width:100%;
+		 height:280px;
+		 margin-top:22%;
+		   display: block;
+		   /*border: 1px solid red;*/}
+		 
+.floatLeft	{float:left;}
+.floatRight	{float:Right;}
+
+/*width x height: 192 x 278 on 1440x900 resolution /////// 163 x 237 on 1280x800 resolution*/
+
+.PlayerOne_Default	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px; position:absolute;top:200px;left:560px;}
+.PlayerOne_After	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px; margin-left:140px;}
+.PlayerTwo	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerThree	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerFour	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerFive	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerSix	{background-image: url("../images/blank.png");width: 163px;
+		 height: 237px;}
+.PlayerSeven	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px; margin-left:304px;}
+.PlayerEight	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerNine	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px; margin-right:304px;}
+.PlayerTen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerEleven	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerTwelve	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerThirteen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerFourteen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerFifteen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerSixteen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerSeventeen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerEighteen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerNineTeen	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
+.PlayerTwenty	{background-image: url("../images/blank.png"); width: 163px;
+		 height: 237px;}
